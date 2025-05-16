@@ -43,6 +43,7 @@ RUN set -x \
 FROM build_stage AS bookworm-base
 
 ENV SRCDS_FPSMAX=300 \
+	SRCDS_ARGS="" \
 	SRCDS_TICKRATE=66 \
 	SRCDS_PORT=27015 \
 	SRCDS_TV_PORT=27020 \
