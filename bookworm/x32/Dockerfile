@@ -3,7 +3,8 @@
 ###########################################################
 FROM cm2network/steamcmd:root AS build_stage
 
-LABEL maintainer="walentinlamonos@gmail.com"
+LABEL maintainer="lesomethingdave@gmail.com"
+LABEL description="An edit of cm2network/tf2 dockerfile"
 
 ENV STEAMAPPID 232250
 ENV STEAMAPP tf
