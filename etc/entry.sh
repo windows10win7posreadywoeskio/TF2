@@ -34,6 +34,7 @@ if [ "$SRCDS_SECURED" -eq 0 ]; then
 fi
 
 bash "${STEAMAPPDIR}/srcds_run" -game "${STEAMAPP}" -console -autoupdate \
+			${SRCDS_ARGS} \
                         -steam_dir "${STEAMCMDDIR}" \
                         -steamcmd_script "${HOMEDIR}/${STEAMAPP}_update.txt" \
                         -usercon \
